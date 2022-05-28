@@ -1,4 +1,4 @@
-package com.vinips.algafood.client.model;
+package com.vinips.algafood.client.model.dto;
 
 public class CozinhaDTO {
 	
@@ -20,5 +20,12 @@ public class CozinhaDTO {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+
+	@Override
+	public String toString() {
+		return "CozinhaDTO [id=" + id + ", nome=" + nome + "]";
+	}
+	
+	
 
 }
